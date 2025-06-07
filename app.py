@@ -23,4 +23,4 @@ def get_hit_count():
 def hello():
     today = datetime.now(timezone("Asia/Jayapura")).strftime("%Y-%m-%d")
     count = get_hit_count()
-    return f'Hello Farid! I have been seen {count} times.okeoke {today}\n'
+    return f'Hello Farid! I have been seen {count} times. today is {today}\n'
